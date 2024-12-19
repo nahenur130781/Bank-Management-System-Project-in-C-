@@ -1,4 +1,4 @@
-
+<---------Nahenur----->
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -7,19 +7,19 @@ class BankAccount{
 		string name;
 		int accountNum;
 		double balance;
-	public:
+	  public:
 		BankAccount(string n, int ac,double bal){
 			name = n;
 			accountNum = ac;
 			balance = bal;
 		}
-		string getName(){
+		string getname(){
 			return name;
 		}
 		int getAccountNum(){
 			return accountNum;
 			}
-		double getBalance(){
+		double getbalance(){
 			return balance;
 		}
 		void deposit(double amount){
